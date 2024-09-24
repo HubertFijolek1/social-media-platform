@@ -1,6 +1,6 @@
 # Twitter-Like Social Media Platform
 
-This project is a scalable, real-time social media platform built using microservices architecture. It supports core features such as posting tweets, following users, real-time notifications, and dynamically updating timelines.
+This project is a scalable, real-time social media platform built using microservices architecture.
 
 ## Features
 
@@ -11,3 +11,10 @@ This project is a scalable, real-time social media platform built using microser
 - Direct Messaging
 - Analytics and Monitoring
 
+## Project Structure
+
+- **services/**: Contains all microservices.
+- **nginx/**: Configuration for Nginx.
+- **logging/**: ELK stack configurations.
+- **analytics/**: Apache Spark jobs.
+- **docs/**: Documentation and diagrams.
