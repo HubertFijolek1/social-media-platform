@@ -1,0 +1,18 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# Logs
+logs/
+*.log
+
+# Docker files
+docker-compose.override.yml
+
+# IDE files
+.vscode/
+.idea/
+
