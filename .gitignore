@@ -16,3 +16,5 @@ docker-compose.override.yml
 .vscode/
 .idea/
 
+# Mac system files
+.DS_Store
