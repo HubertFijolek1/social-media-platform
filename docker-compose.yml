@@ -1,0 +1,16 @@
+services:
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
+      # - "443:443"  # For SSL - later
+    depends_on:
+      - user-service
+      - tweet-service
+      # Add other services - later
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
