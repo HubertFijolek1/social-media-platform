@@ -2,9 +2,12 @@ filebeat.inputs:
 - type: docker
   containers.ids:
     - "${data.docker.container.id}"
+- type: stdin
 
 processors:
 - add_docker_metadata: ~
 
 output.logstash:
   hosts: ["logstash:5044"]
+
+  
